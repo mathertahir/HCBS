@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mulish"), url("Mulish-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  src: local("ubuntu"), url("Ubuntu\ Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: local("roboto"), url("Roboto-Regular.woff2") format("woff2");
+}

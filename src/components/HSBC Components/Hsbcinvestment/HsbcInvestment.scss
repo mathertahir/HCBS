@@ -1,0 +1,178 @@
+.investment-wrapper {
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  .investment-heading-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 28px;
+
+    .imvestment-title {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      color: #000;
+    }
+  }
+
+  .investment-card-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .image-section {
+      border-radius: 7.47px 7.47px 0px 0px;
+
+      background-repeat: no-repeat;
+
+      background-size: cover;
+      position: relative;
+      //   background-position: center;
+    }
+
+    .image-section::after {
+      content: "";
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 260.09%);
+    }
+
+    .data-wrapper {
+      padding: 18px 12px 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 90.57px;
+      .date-badge-otr {
+        display: flex;
+        .date-badge-inr {
+          padding: 2.63px 6.576px;
+          border-radius: 236.724px;
+          font-size: 7.891px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 180%; /* 14.203px */
+          letter-spacing: -0.158px;
+          color: #fff;
+          border: 0.658px solid #fff;
+        }
+      }
+
+      .investment-card-title {
+        display: flex;
+        flex-direction: column;
+        gap: 9.4px;
+
+        .card-titles {
+          font-size: 14.94px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 20.542px;
+          color: #fff;
+        }
+
+        .performance-div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 3.735px 14.006px;
+          border-radius: 3.735px;
+          background: rgba(223, 253, 221, 0.69);
+
+          .per-title {
+            font-size: 10.271px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 180%; /* 18.488px */
+            letter-spacing: -0.205px;
+            color: #fff;
+          }
+
+          .per-cent {
+            font-size: 11.205px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 180%;
+            letter-spacing: -0.224px;
+            color: #00ff1f;
+          }
+        }
+      }
+    }
+  }
+  .card-content-section {
+    padding: 16px 23px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 14.94px;
+
+    border-radius: 0px 0px 7.47px 7.47px;
+    background: var(--white-100, #fff);
+
+    box-shadow: 0px 0.82px 2.461px 0px rgba(13, 10, 44, 0.08);
+
+    .card-desc-data-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 9.34px;
+
+      .card-badges-wrapper {
+        display: flex;
+        gap: 13.08px;
+
+        .badge-otr-wra {
+          display: flex;
+          flex-direction: column;
+          .badge-title {
+            font-size: 7.371px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 180%; /* 13.267px */
+            letter-spacing: -0.147px;
+            color: #000;
+          }
+
+          .badge-des {
+            font-size: 10.466px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%; /* 18.839px */
+            letter-spacing: -0.209px;
+            color: #000;
+          }
+        }
+      }
+
+      .card-detail {
+        font-size: 10.271px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 18.488px */
+        letter-spacing: -0.205px;
+        color: #000;
+        text-align: justify;
+      }
+    }
+
+    .card-btn-otr {
+      display: flex;
+      width: 100%;
+
+      .card-btn-inr {
+        display: flex;
+        align-items: center;
+        gap: 7.5px;
+        padding: 9.34px 60.44px;
+        border-radius: 7.47px;
+        background: #7fff00;
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+}

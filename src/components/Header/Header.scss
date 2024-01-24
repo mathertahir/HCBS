@@ -1,0 +1,126 @@
+@import "../../CommonStyle/Variables.scss";
+
+.navbar-wrapper {
+  .navbar-container {
+    .nav-data-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      .navbar-logo-wrapper {
+        .navbar-logo-img {
+        }
+      }
+
+      .nav-item-wrapper {
+        .link-wrapper {
+          display: flex;
+          padding: 26px 12px;
+          align-items: center;
+          position: relative;
+
+          .nav-tags {
+            color: $white;
+            padding: 0px;
+            margin-right: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+          }
+
+          .icon-img {
+            color: $white;
+          }
+
+          &::after {
+            content: "";
+            width: 0;
+            height: 3px;
+            background: #00c194;
+            transition-duration: 0.3s;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+
+          &:hover::after {
+            width: 100%; // Adjust as needed
+          }
+        }
+      }
+
+      .icon-section {
+        .nav-icon-link {
+          padding: 10px 10px;
+          display: flex;
+          align-items: center;
+          .icon-wrapper {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 1px solid $secondary-ea;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .property-btn {
+            gap: 10px;
+            position: relative;
+            background: #00c194;
+            z-index: 2;
+            height: 44px;
+            border-radius: 30px;
+            padding-right: 30px;
+            display: flex;
+            align-items: center;
+
+            .icon-section {
+              border-bottom-left-radius: 30px;
+              border-top-left-radius: 30px;
+
+              background: #00a376;
+
+              height: 100%;
+              width: 42px;
+              font-size: 15px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: 0.3s;
+              cursor: pointer;
+
+              .animated-icon {
+                color: white;
+              }
+            }
+
+            .label-section {
+              /* height: 100%; */
+              /* background: #00c194; */
+              white-space: nowrap;
+              font-size: 15px;
+              font-weight: 500;
+              cursor: pointer;
+              color: $white;
+            }
+          }
+
+          .circle-property-btn {
+            .circle-wrapper {
+              width: 40px;
+              height: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #00c194;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

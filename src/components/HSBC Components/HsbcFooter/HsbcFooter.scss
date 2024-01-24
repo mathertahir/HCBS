@@ -1,0 +1,110 @@
+.hsbc-footer-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #0a142f;
+
+  .footer-container {
+    .footer-custom-container {
+      width: 80%;
+      margin: auto;
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+
+        .bottom-links {
+          display: flex;
+          align-items: center;
+          gap: 50px;
+        }
+
+        .copy-right {
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          color: #fff;
+          opacity: 0.7;
+          margin-right: 47px;
+        }
+      }
+
+      .custom-container-data {
+        padding-top: 93px;
+        padding-bottom: 80px;
+        border-top: 2px solid rgba(255, 255, 255, 0.3);
+
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+
+        .footer-content-wrapper {
+          display: flex;
+          flex-direction: column;
+          gap: 43px;
+
+          .footer-main-data {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .location-link {
+              display: flex;
+              align-items: center;
+              gap: 16px;
+            }
+
+            .phone-section {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              max-width: 410px;
+
+              .phone-link {
+                display: flex;
+                gap: 16px;
+                align-items: center;
+              }
+            }
+          }
+
+          .social-media-section {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            .social-media-title {
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              color: #fff;
+              opacity: 0.7;
+            }
+
+            .social-icons {
+              display: flex;
+              align-items: center;
+              gap: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon-desc {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.f-14-U {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
+}

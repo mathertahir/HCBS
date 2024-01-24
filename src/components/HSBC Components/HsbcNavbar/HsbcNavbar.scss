@@ -1,0 +1,54 @@
+.navbar-wrapper {
+  .navbar-container {
+    .hsbc-data-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      .navbar-logo-wrapper {
+        .navbar-logo-img {
+        }
+      }
+
+      .nav-item-wrapper {
+        display: flex;
+        gap: 40px;
+        .link-wrapper {
+          display: flex;
+          padding: 26px 12px;
+          align-items: center;
+          position: relative;
+
+          .nav-tags {
+            color: #000000;
+            padding: 0px;
+            margin-left: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+          }
+
+          .icon-img {
+            // color: $whit
+          }
+        }
+      }
+
+      .icon-section {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        .profile-img-otr {
+          height: 38px;
+          width: 38px;
+          border-radius: 50%;
+
+          .profile-img-inr {
+            object-fit: fill;
+          }
+        }
+      }
+    }
+  }
+}

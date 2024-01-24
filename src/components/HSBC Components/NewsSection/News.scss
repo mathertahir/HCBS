@@ -1,0 +1,218 @@
+.news-wrapper {
+  padding-bottom: 42px;
+
+  .news-heading-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 20px;
+
+    .news-title {
+      color: #000;
+
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+    }
+  }
+
+  .news-data-card {
+    padding: 22px 22px 41px 22px;
+    background-color: #fff;
+    border-radius: 12px;
+
+    .top-cards {
+      padding-bottom: 17px;
+      .capital-badge {
+        padding: 10px 29px;
+        border-radius: var(--12, 12px);
+
+        background: #00ff1f;
+
+        display: flex;
+        gap: 27px;
+
+        .capital-badge-data {
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          .badge-title {
+            color: var(--white-100, #fff);
+
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 180%; /* 36px */
+            letter-spacing: -0.4px;
+          }
+
+          .badge-desc {
+            color: var(--white-100, #fff);
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%; /* 28.8px */
+            letter-spacing: -0.32px;
+          }
+        }
+      }
+
+      .danger-card {
+        display: inline-flex;
+        padding: 10px 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 100%;
+
+        border-radius: var(--12, 12px);
+
+        border: 1px solid #ff002e;
+
+        color: #ff002e;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 180%; /* 28.8px */
+        letter-spacing: -0.32px;
+      }
+    }
+
+    .cards-content-section {
+      padding: 25px 40px 55px 40px;
+      border-radius: var(--12, 12px);
+
+      border: 1px solid #d6d6d6;
+
+      background: var(--white-100, #fff);
+
+      .inner-card-otr {
+        .content-title {
+          color: #000;
+          padding-bottom: 18px;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 180%; /* 64.8px */
+          letter-spacing: -0.72px;
+        }
+
+        .performance {
+          padding: 5.943px 22.287px;
+          border-radius: 5.943px;
+          background: #dbfbde;
+          display: flex;
+          justify-content: space-between;
+
+          .gurranty {
+            color: #000;
+
+            font-size: 16.344px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%; /* 29.419px */
+            letter-spacing: -0.327px;
+          }
+
+          .percent {
+            color: #00ff1f;
+
+            font-size: 17.83px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%;
+            letter-spacing: -0.357px;
+          }
+        }
+
+        .contebt-detail {
+          color: #6e6e6e;
+
+          text-align: justify;
+          padding-top: 28px;
+          padding-bottom: 28px;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 180%; /* 25.2px */
+          letter-spacing: -0.28px;
+        }
+
+        .content-badges-section {
+          padding: 17px 33px;
+          border-radius: var(--12, 12px);
+
+          border: 1px solid #d80027;
+
+          background: #ff002e;
+          display: flex;
+          gap: 41px;
+          margin-bottom: 16.27px;
+
+          .bdge-links {
+            display: flex;
+            flex-direction: column;
+
+            .badge-title-section {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+
+              .badge-title {
+                color: #fff;
+
+                font-size: 11.259px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 180%; /* 20.266px */
+                letter-spacing: -0.225px;
+              }
+
+              .badge-count {
+                color: #fff;
+
+                font-size: 16.084px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 180%; /* 28.951px */
+                letter-spacing: -0.322px;
+              }
+            }
+          }
+        }
+
+        .lern-btn-otr {
+          display: flex;
+          //   width: 100%;
+
+          .lern-btn-inr {
+            padding: 13px 219px;
+            border-radius: 7.47px;
+            border: 1px solid #00ff1f;
+            display: flex;
+            gap: 7.47px;
+            width: 100%;
+
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%; /* 27px */
+            letter-spacing: -0.3px;
+          }
+        }
+      }
+
+      .img-wrapper {
+        position: relative;
+
+        .cntent-img{
+            object-fit: cover;
+            
+        }
+      }
+    }
+  }
+}
