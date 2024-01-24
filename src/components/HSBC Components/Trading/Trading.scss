@@ -1,0 +1,101 @@
+.Trading-wrapper {
+  .Trading-heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 28px;
+
+    .trading-heading-part {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+
+      .trading-title {
+        color: #000;
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+      }
+    }
+
+    .trading-btn-part {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+
+      .trade-btn-otr {
+        padding: 10px;
+        border: 1px solid #696d6e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .trading-top-cards {
+    padding: 30px 100px;
+    background-color: #fff;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: var(--white-100, #fff);
+
+    box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.1);
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    gap: 122px;
+
+    .top-card-heading {
+      color: #000;
+
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px; /* 166.667% */
+      letter-spacing: -0.24px;
+    }
+
+    .trading-badges-section {
+      display: flex;
+      //   gap: 55px;
+      width: 100%;
+      justify-content: space-between;
+      .single-badge-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .t-badge-otr {
+          padding: 0px 12px;
+          border-radius: 200px;
+          background: #e8f5e7;
+          display: flex;
+          gap: 9px;
+          cursor: pointer;
+        }
+
+        .t-badge-heading {
+          color: #439f3f;
+
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 40px; /* 266.667% */
+          letter-spacing: -0.15px;
+        }
+        .t-badge-count {
+          color: #000;
+
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 40px; /* 200% */
+          letter-spacing: -0.2px;
+        }
+      }
+    }
+  }
+}

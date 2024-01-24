@@ -6,6 +6,7 @@ import { Container } from "react-bootstrap";
 import Summary from "../../components/HSBC Components/HsbcSummary/Summary";
 import HsbcInvestment from "../../components/HSBC Components/Hsbcinvestment/HsbcInvestment";
 import News from "../../components/HSBC Components/NewsSection/News";
+import Trading from "../../components/HSBC Components/Trading/Trading";
 
 const HsbcHome = () => {
   return (
@@ -16,6 +17,7 @@ const HsbcHome = () => {
       <Container>
         <HsbcHero />
         <Summary />
+        <Trading />
         <HsbcInvestment />
         <News />
       </Container>
