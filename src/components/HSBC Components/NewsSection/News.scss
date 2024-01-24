@@ -1,6 +1,4 @@
 .news-wrapper {
-  padding-bottom: 42px;
-
   .news-heading-section {
     display: flex;
     align-items: center;
@@ -208,9 +206,8 @@
       .img-wrapper {
         position: relative;
 
-        .cntent-img{
-            object-fit: cover;
-            
+        .cntent-img {
+          object-fit: cover;
         }
       }
     }
