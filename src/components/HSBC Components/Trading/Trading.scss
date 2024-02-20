@@ -1,4 +1,5 @@
 .Trading-wrapper {
+  padding-bottom: 35px;
   .Trading-heading-section {
     display: flex;
     justify-content: space-between;
@@ -33,6 +34,12 @@
         align-items: center;
       }
     }
+  }
+
+  .trading-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
 
   .trading-top-cards {
@@ -94,6 +101,47 @@
           font-weight: 500;
           line-height: 40px; /* 200% */
           letter-spacing: -0.2px;
+        }
+      }
+    }
+  }
+
+  .trading-bottom-cards {
+    .prograss-bar-section {
+      padding-top: 15px;
+      padding-bottom: 34px;
+      padding-left: 14px;
+      padding-right: 14px;
+
+      border-radius: 8.785px;
+      background: #fff;
+      box-shadow: 0px 0.878px 2.635px 0px rgba(13, 10, 44, 0.08);
+
+      .card-header {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 11.24px;
+        border-bottom: 1px solid #e5e5ef;
+        align-items: center;
+
+        .c-head {
+          color: #9291a5;
+          font-feature-settings: "clig" off, "liga" off;
+
+          font-size: 8.341px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 8.785px;
+        }
+
+        .c-m-head {
+          color: #1e1b39;
+          font-feature-settings: "clig" off, "liga" off;
+
+          font-size: 9.532px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 12.298px;
         }
       }
     }

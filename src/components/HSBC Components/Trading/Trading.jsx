@@ -1,5 +1,6 @@
 import React from "react";
 import "./Trading.scss";
+import { Col, Row } from "react-bootstrap";
 
 const Trading = () => {
   const badgedata = [
@@ -103,41 +104,57 @@ const Trading = () => {
           </div>
         </div>
       </div>
+      <div className="trading-cards-wrapper">
+        <div className="trading-top-cards">
+          <div className="top-card-heading">Trading</div>
+          <div className="trading-badges-section">
+            {badgedata.map((item, index) => (
+              <div className="single-badge-div" key={index}>
+                <div className="t-badge-otr">
+                  <div className="t-badge-heading">{item.title}</div>
 
-      <div className="trading-top-cards">
-        <div className="top-card-heading">Trading</div>
-        <div className="trading-badges-section">
-          {badgedata.map((item, index) => (
-            <div className="single-badge-div" key={index}>
-              <div className="t-badge-otr">
-                <div className="t-badge-heading">{item.title}</div>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                        fill="#439F3F"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                        fill="#439F3F"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div className="t-badge-count">{item.amount}</div>
+              </div>
+            ))}
+          </div>
+        </div>
 
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
-                      fill="#439F3F"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
-                      fill="#439F3F"
-                    />
-                  </svg>
+        <div className="trading-bottom-cards">
+          <Row className="mx-o">
+            <Col md={4}>
+              <div className="prograss-bar-section">
+                <div className="card-header">
+                  <div className="c-head">Statistics</div>
+                  <div className="c-m-head">Risk Management</div>
                 </div>
               </div>
-              <div className="t-badge-count">{item.amount}</div>
-            </div>
-          ))}
+            </Col>
+            <Col md={8}></Col>
+            <Col md={4}></Col>
+          </Row>
         </div>
       </div>
     </div>

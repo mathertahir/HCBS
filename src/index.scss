@@ -1,4 +1,4 @@
-@import "./Fonts/style.css" ;
+@import "./Fonts/style.css";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -6,9 +6,121 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #171925 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.fs-17 {
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+.fs-12 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.cl-wd {
+  color: #ffffffdf;
+}
+
+.cl-gray {
+  color: #e3e3e3;
+}
+
+.fs-13 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.pdr-0 {
+  padding-right: 0 !important;
+}
+
+.row-gap {
+  row-gap: 20px;
+}
+
+.cl-pur {
+  color: #7f4eca;
+}
+
+.custom-input {
+  outline: none;
+  background-color: transparent;
+  color: #e3e3e3;
+  border: none;
+  width: 100%;
+}
+
+.card-otr {
+  padding: 15px 20px;
+  border-radius: 18px;
+  background: #1e202c;
+  border: 1px solid #48495b;
+}
+
+#file-upload-button {
+  display: none !important;
+}
+
+.uplode-btn {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  color: #e3e3e3 !important;
+  padding: 20px 60px !important;
+  border-radius: 18px !important;
+  border: 1px solid #48495b !important;
+  font-size: 13px !important;
+}
+.upload-input {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.bg-purple {
+  background-color: #6b72ff;
+  padding: 20px 60px;
+  border-radius: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.table-head {
+  background-color: #282a36;
+
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.table-data {
+  padding: 18px;
+  border-bottom: 1px solid #48495b;
+}
+
+.edit-button {
+  border: 1px solid #6b72ff;
+  padding: 10px 30px;
+  border-radius: 12px;
+  width: 110px;
+}
+
+.cl-p {
+  color: #6b72ff;
 }

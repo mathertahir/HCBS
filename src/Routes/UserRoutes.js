@@ -8,12 +8,31 @@ import {
 } from "react-router-dom";
 import Home from "../Views/Home";
 import HSBCHome from "../Views/HSBCHome";
+import DashBoardLayout from "../components/Fry Agency Components/DashBoardLayout/DashBoardLayout";
+import Employess from "../pages/Employess";
+import Dashboard from "../Views/Dashboard";
 
 const UserRoutes = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HSBCHome />,
+      element: <Dashboard />,
+
+      children: [
+        {
+          path: "employee",
+
+          index: true,
+          element: <Employess />,
+        },
+
+        {
+          path: "dashboardmain",
+
+          index: true,
+          element: <Dashboard />,
+        },
+      ],
     },
 
     // {
